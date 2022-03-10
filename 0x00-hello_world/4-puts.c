@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
-*function that print ou a string and returns 0
+*main function that print out a string and 
+*return 0
 */
 int main(void)
 {
