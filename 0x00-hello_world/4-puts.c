@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*
-*main function that print out a string and 
-*return 0
+/**
+* main - main block
+* Return: 0
 */
 int main(void)
 {
