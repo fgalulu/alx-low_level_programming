@@ -2,26 +2,26 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: Print all base 16 numbers
- * in lower case and end with new line
+ * Description: prints all single digit numbers of base 10
+ * starting from 0, followed by a new line.
  * Return: 0
  */
 int main(void)
 {
-	char s = '0';
+	char d = '0';
 
-	while (s <= '9')
+	while (d <= '9')
 	{
-		putchar(s);
-		s++;
+		putchar(d);
+		d++;
 	}
 
-	char t = 'a';
+	char c = 'a';
 
-	while (t <= 'f')
+	while (c <= 'f')
 	{
-		putchar(t);
-		t++;
+		putchar(c);
+		c++;
 	}
 
 	putchar('\n');
