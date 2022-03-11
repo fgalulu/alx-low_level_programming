@@ -8,16 +8,19 @@
  */
 int main(void)
 {
-	char i;
+	char i = 'a';
+	char j = 'A';
 
-	for (i = 'a'; i <= 'z'; i++)
+	while (i <= 'z')
 	{
 		putchar(i);
+		i++;
 	}
 
-	for (i = 'A'; i <= 'Z'; i++)
+	while (j <= 'Z')
 	{
-		putchar(i);
+		putchar(j);
+		j++;
 	}
 
 	putchar('\n');
