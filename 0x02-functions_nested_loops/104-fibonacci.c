@@ -11,7 +11,7 @@ int main(void)
 	unsigned long int a = 1, b = 2, next;
 
 	printf("%lu, %lu, ", a, b);
-	while (i < 98)
+	while (i < 96)
 	{
 		next = a + b;
 		a = b;
