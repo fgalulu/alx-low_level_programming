@@ -10,7 +10,7 @@ int main(void)
 	int i = 0;
 	unsigned long int a = 1, b = 2, next;
 
-	printf("%lu, %lu", a, b);
+	printf("%lu, %lu, ", a, b);
 	while (i < 98)
 	{
 		next = a + b;
