@@ -10,13 +10,13 @@ int main(void)
 	int i = 0;
 	unsigned long long int a = 1, b = 2, next;
 
-	printf("%lli, %lli, ", a, b);
+	printf("%llu, %llu, ", a, b);
 	while (i < 96)
 	{
 		next = a + b;
 		a = b;
 		b = next;
-		printf("%lli", next);
+		printf("%llu", next);
 
 		if (i < 95)
 			printf(", ");
