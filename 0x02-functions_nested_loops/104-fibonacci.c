@@ -8,15 +8,15 @@
 int main(void)
 {
 	int i = 0;
-	unsigned long long int a = 1, b = 2, next;
+	unsigned long int a = 1, b = 2, next;
 
-	printf("%llu, %llu, ", a, b);
+	printf("%lu, %lu, ", a, b);
 	while (i < 96)
 	{
 		next = a + b;
 		a = b;
 		b = next;
-		printf("%llu", next);
+		printf("%lu", next);
 
 		if (i < 95)
 			printf(", ");
