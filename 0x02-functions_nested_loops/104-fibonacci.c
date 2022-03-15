@@ -8,17 +8,17 @@
 int main(void)
 {
 	int i = 0;
-	unsigned long int a = 1, b = 2, next;
+	unsigned long long int a = 1, b = 2, next;
 
-	printf("%lu, %lu, ", a, b);
+	printf("%lli, %lli, ", a, b);
 	while (i < 96)
 	{
 		next = a + b;
 		a = b;
 		b = next;
-		printf("%lu", next);
+		printf("%lli", next);
 
-		if (i < 97)
+		if (i < 95)
 			printf(", ");
 		i++;
 	}
