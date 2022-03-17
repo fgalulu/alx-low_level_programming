@@ -18,7 +18,6 @@ for (a = 1; a <= n; ++a)
 		printf("%lu \n", n / a);
 		break;
 	}
-	a--;
 
 }
 
